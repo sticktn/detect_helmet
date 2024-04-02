@@ -1,7 +1,7 @@
 # 安全帽检测
 
 ## 1. 数据集准备
-安全帽目标检测数据集来源于[一个github项目](https://github.com/njvisionpower/Safety-Helmet-Wearing-Dataset)，下载下来之后文件夹目录树如下：
+安全帽目标检测数据集来源于[SafetyHelmetWearing-Dataset](https://github.com/njvisionpower/Safety-Helmet-Wearing-Dataset)，下载下来之后文件夹目录树如下：
 ```
 ---VOC2028    
     ---Annotations    # xml文件，保存的图片标签
