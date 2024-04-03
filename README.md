@@ -15,3 +15,15 @@
     ---images
     ---labels # 标签文件中的种类只有两种,1-head,2-helmet
 ```
+
+使用`gen_txt.py`脚本使用yolov8模型对数据集进行处理，得到再coco类别上的每个图片的目标描述(txt)，然后使用`merge_data.py`，
+将得到的txt文件中的人的描述合并到原始数据集的标签文件中。
+
+最后使用`inspection_label.py`脚本将label进行可视化，判断标注有无错误。
+
+此时label文件中，数字对应的类别如下:
+```
+0 person
+1 head
+2 helmet
+```
