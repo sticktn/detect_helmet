@@ -1,7 +1,7 @@
 import os
 
-DATASET_LABEL = './datatset/VOC2028/Labels/'
-YOLO_LABEL = './datatset/label/'
+DATASET_LABEL = './datasets/VOC2028/Labels/'
+YOLO_LABEL = './datasets/label/'
 
 if __name__ == "__main__":
     yolo_dirs_list = os.listdir(YOLO_LABEL)

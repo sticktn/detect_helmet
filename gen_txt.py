@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-DATA_PATH = "./datatset/yolo_type/images"
+DATA_PATH = "datasets/yolo_type/images"
 
 TRAIN_DATA_PATH = DATA_PATH + "/train"
 TEST_DATA_PATH = DATA_PATH + "/test"

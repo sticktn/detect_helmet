@@ -3,11 +3,11 @@ import numpy as np
 import cv2
 
 # 修改输入图片文件夹
-img_folder = "./datatset/VOC2028/JPEGImages"
+img_folder = "./datasets/VOC2028/JPEGImages"
 img_list = os.listdir(img_folder)
 img_list.sort()
 # 修改输入标签文件夹
-label_folder = "./datatset/VOC2028/Labels"
+label_folder = "./datasets/VOC2028/Labels"
 label_list = os.listdir(label_folder)
 label_list.sort()
 # 输出图片文件夹位置
